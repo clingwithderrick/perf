@@ -1,0 +1,692 @@
+2016-07-02 15:57:19,749 - Google -INFO - Browser Opened
+2016-07-02 16:07:52,952 - Google -INFO - Browser Opened
+2016-07-02 16:07:52,985 - NewToursApplication -INFO - Ignoring unrecognized log type: client
+
+2016-07-02 16:07:52,985 - NewToursApplication -INFO - Ignoring unrecognized log type: profiler
+
+2016-07-02 16:07:52,986 - NewToursApplication -INFO - Ignoring unrecognized log type: server
+
+2016-07-02 16:07:52,986 - NewToursApplication -INFO - Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+
+2016-07-02 16:07:52,988 - NewToursApplication -INFO - Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+
+2016-07-02 16:07:52,989 - NewToursApplication -INFO - Can not set to US keyboard layout - Some keycodes may beinterpreted incorrectly
+
+2016-07-02 16:07:52,989 - NewToursApplication -INFO - Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension="C:\Users\SRINIV~1.RAM\AppData\Local\Temp\scoped_dir8204_16522\internal" --log-level=0 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=12964 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --test-type --use-mock-keychain --user-data-dir="C:\Users\SRINIV~1.RAM\AppData\Local\Temp\scoped_dir8204_25997" data:,
+
+2016-07-02 16:07:52,990 - NewToursApplication -INFO - RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)",
+      "userDataDir": "C:\\Users\\SRINIV~1.RAM\\AppData\\Local\\Temp\\scoped_dir8204_25997"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "51.0.2704.103",
+   "webStorageEnabled": true
+}
+
+2016-07-02 16:07:52,991 - NewToursApplication -INFO - COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+
+2016-07-02 16:07:52,992 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:52,992 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:52,993 - NewToursApplication -INFO - RESPONSE MaximizeWindow
+
+2016-07-02 16:07:52,993 - NewToursApplication -INFO - COMMAND SetTimeout {
+   "ms": 10000,
+   "type": "implicit"
+}
+
+2016-07-02 16:07:52,994 - NewToursApplication -INFO - RESPONSE SetTimeout
+
+2016-07-02 16:07:52,994 - NewToursApplication -INFO - COMMAND Navigate {
+   "url": "http://newtours.demoaut.com"
+}
+
+2016-07-02 16:07:52,995 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:52,995 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:52,996 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:52,996 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:52,997 - NewToursApplication -INFO - RESPONSE Navigate
+
+2016-07-02 16:07:52,997 - NewToursApplication -INFO - COMMAND FindElement {
+   "using": "name",
+   "value": "userName"
+}
+
+2016-07-02 16:07:52,998 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:52,998 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:52,999 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:52,999 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:52,999 - NewToursApplication -INFO - RESPONSE FindElement {
+   "ELEMENT": "0.661979195842475-1"
+}
+
+2016-07-02 16:07:53,000 - NewToursApplication -INFO - COMMAND ClearElement {
+   "id": "0.661979195842475-1"
+}
+
+2016-07-02 16:07:53,000 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,001 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,001 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,002 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,002 - NewToursApplication -INFO - RESPONSE ClearElement
+
+2016-07-02 16:07:53,003 - NewToursApplication -INFO - COMMAND FindElement {
+   "using": "name",
+   "value": "userName"
+}
+
+2016-07-02 16:07:53,003 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,004 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,004 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,005 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,005 - NewToursApplication -INFO - RESPONSE FindElement {
+   "ELEMENT": "0.661979195842475-1"
+}
+
+2016-07-02 16:07:53,006 - NewToursApplication -INFO - COMMAND TypeElement {
+   "id": "0.661979195842475-1",
+   "value": [ "mercury" ]
+}
+
+2016-07-02 16:07:53,006 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,007 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,007 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,007 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,008 - NewToursApplication -INFO - RESPONSE TypeElement
+
+2016-07-02 16:07:53,008 - NewToursApplication -INFO - COMMAND FindElement {
+   "using": "name",
+   "value": "password"
+}
+
+2016-07-02 16:07:53,008 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,009 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,009 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,009 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,009 - NewToursApplication -INFO - RESPONSE FindElement {
+   "ELEMENT": "0.661979195842475-2"
+}
+
+2016-07-02 16:07:53,010 - NewToursApplication -INFO - COMMAND ClearElement {
+   "id": "0.661979195842475-2"
+}
+
+2016-07-02 16:07:53,010 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,010 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,011 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,011 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,011 - NewToursApplication -INFO - RESPONSE ClearElement
+
+2016-07-02 16:07:53,011 - NewToursApplication -INFO - COMMAND FindElement {
+   "using": "name",
+   "value": "password"
+}
+
+2016-07-02 16:07:53,012 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,012 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,013 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,013 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,013 - NewToursApplication -INFO - RESPONSE FindElement {
+   "ELEMENT": "0.661979195842475-2"
+}
+
+2016-07-02 16:07:53,013 - NewToursApplication -INFO - COMMAND TypeElement {
+   "id": "0.661979195842475-2",
+   "value": [ "mercury" ]
+}
+
+2016-07-02 16:07:53,014 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,014 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,014 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,015 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,015 - NewToursApplication -INFO - RESPONSE TypeElement
+
+2016-07-02 16:07:53,015 - NewToursApplication -INFO - COMMAND FindElement {
+   "using": "name",
+   "value": "login"
+}
+
+2016-07-02 16:07:53,016 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,016 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,016 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,016 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,017 - NewToursApplication -INFO - RESPONSE FindElement {
+   "ELEMENT": "0.661979195842475-3"
+}
+
+2016-07-02 16:07:53,017 - NewToursApplication -INFO - COMMAND ClickElement {
+   "id": "0.661979195842475-3"
+}
+
+2016-07-02 16:07:53,017 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,018 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,018 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,018 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,018 - NewToursApplication -INFO - RESPONSE ClickElement
+
+2016-07-02 16:07:53,019 - NewToursApplication -INFO - COMMAND SetTimeout {
+   "ms": 3000,
+   "type": "page load"
+}
+
+2016-07-02 16:07:53,019 - NewToursApplication -INFO - RESPONSE SetTimeout
+
+2016-07-02 16:07:53,019 - NewToursApplication -INFO - COMMAND FindElement {
+   "using": "link text",
+   "value": "SIGN-OFF"
+}
+
+2016-07-02 16:07:53,019 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,020 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,020 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,020 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,020 - NewToursApplication -INFO - RESPONSE FindElement {
+   "ELEMENT": "0.7478577081927851-1"
+}
+
+2016-07-02 16:07:53,021 - NewToursApplication -INFO - COMMAND ClickElement {
+   "id": "0.7478577081927851-1"
+}
+
+2016-07-02 16:07:53,021 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,021 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,021 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,022 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,022 - NewToursApplication -INFO - RESPONSE ClickElement
+
+2016-07-02 16:07:53,023 - NewToursApplication -INFO - COMMAND Screenshot {
+
+}
+
+2016-07-02 16:07:53,023 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,024 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,024 - NewToursApplication -INFO - Waiting for pending navigations...
+
+2016-07-02 16:07:53,024 - NewToursApplication -INFO - Done waiting for pending navigations
+
+2016-07-02 16:07:53,025 - NewToursApplication -INFO - RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKbCAIAAACRikahAAAgAElEQVR4nOy9e5xVZ33v/1lr7b0ZJgkMYUQgCUxuhNyH/R2sNZwIbY2nWoX09zq1iacKJTxz/HkD/dme/l59HcD+elGriU0v7idG0LZJa08bUHuqiecElWht5rsZkoCE3AYSyQ3MQJIhzN57rd8fz..."
+
+2016-07-02 16:07:53,025 - NewToursApplication -INFO - COMMAND GetLog {
+   "type": "driver"
+}
+
+2016-07-02 16:19:50,366 - NewToursApplication -INFO - 1467456582133 - Ignoring unrecognized log type: client
+
+2016-07-02 16:19:50,371 - NewToursApplication -INFO - 1467456582133 - Ignoring unrecognized log type: profiler
+
+2016-07-02 16:19:50,371 - NewToursApplication -INFO - 1467456582133 - Ignoring unrecognized log type: server
+
+2016-07-02 16:19:50,372 - NewToursApplication -INFO - 1467456582135 - Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+
+2016-07-02 16:19:50,373 - NewToursApplication -INFO - 1467456582138 - Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+
+2016-07-02 16:19:50,373 - NewToursApplication -INFO - 1467456582156 - Can not set to US keyboard layout - Some keycodes may beinterpreted incorrectly
+
+2016-07-02 16:19:50,374 - NewToursApplication -INFO - 1467456582156 - Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension="C:\Users\SRINIV~1.RAM\AppData\Local\Temp\scoped_dir3580_20583\internal" --log-level=0 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=12914 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --test-type --use-mock-keychain --user-data-dir="C:\Users\SRINIV~1.RAM\AppData\Local\Temp\scoped_dir3580_7214" data:,
+
+2016-07-02 16:19:50,376 - NewToursApplication -INFO - 1467456582983 - RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)",
+      "userDataDir": "C:\\Users\\SRINIV~1.RAM\\AppData\\Local\\Temp\\scoped_dir3580_7214"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "51.0.2704.103",
+   "webStorageEnabled": true
+}
+
+2016-07-02 16:19:50,377 - NewToursApplication -INFO - 1467456583033 - COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+
+2016-07-02 16:19:50,377 - NewToursApplication -INFO - 1467456583038 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,378 - NewToursApplication -INFO - 1467456583057 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,378 - NewToursApplication -INFO - 1467456583225 - RESPONSE MaximizeWindow
+
+2016-07-02 16:19:50,379 - NewToursApplication -INFO - 1467456583233 - COMMAND SetTimeout {
+   "ms": 10000,
+   "type": "implicit"
+}
+
+2016-07-02 16:19:50,379 - NewToursApplication -INFO - 1467456583233 - RESPONSE SetTimeout
+
+2016-07-02 16:19:50,380 - NewToursApplication -INFO - 1467456583349 - COMMAND Navigate {
+   "url": "http://newtours.demoaut.com"
+}
+
+2016-07-02 16:19:50,380 - NewToursApplication -INFO - 1467456583349 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,381 - NewToursApplication -INFO - 1467456583362 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,381 - NewToursApplication -INFO - 1467456584647 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,382 - NewToursApplication -INFO - 1467456586516 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,382 - NewToursApplication -INFO - 1467456586516 - RESPONSE Navigate
+
+2016-07-02 16:19:50,383 - NewToursApplication -INFO - 1467456586526 - COMMAND FindElement {
+   "using": "name",
+   "value": "userName"
+}
+
+2016-07-02 16:19:50,384 - NewToursApplication -INFO - 1467456586527 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,384 - NewToursApplication -INFO - 1467456586529 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,384 - NewToursApplication -INFO - 1467456586598 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,385 - NewToursApplication -INFO - 1467456586600 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,385 - NewToursApplication -INFO - 1467456586600 - RESPONSE FindElement {
+   "ELEMENT": "0.9904662394568939-1"
+}
+
+2016-07-02 16:19:50,386 - NewToursApplication -INFO - 1467456586607 - COMMAND ClearElement {
+   "id": "0.9904662394568939-1"
+}
+
+2016-07-02 16:19:50,386 - NewToursApplication -INFO - 1467456586607 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,386 - NewToursApplication -INFO - 1467456586608 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,387 - NewToursApplication -INFO - 1467456586648 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,387 - NewToursApplication -INFO - 1467456586650 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,387 - NewToursApplication -INFO - 1467456586650 - RESPONSE ClearElement
+
+2016-07-02 16:19:50,388 - NewToursApplication -INFO - 1467456586653 - COMMAND FindElement {
+   "using": "name",
+   "value": "userName"
+}
+
+2016-07-02 16:19:50,388 - NewToursApplication -INFO - 1467456586653 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,389 - NewToursApplication -INFO - 1467456586654 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,389 - NewToursApplication -INFO - 1467456586672 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,389 - NewToursApplication -INFO - 1467456586673 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,390 - NewToursApplication -INFO - 1467456586673 - RESPONSE FindElement {
+   "ELEMENT": "0.9904662394568939-1"
+}
+
+2016-07-02 16:19:50,390 - NewToursApplication -INFO - 1467456586676 - COMMAND TypeElement {
+   "id": "0.9904662394568939-1",
+   "value": [ "mercury" ]
+}
+
+2016-07-02 16:19:50,391 - NewToursApplication -INFO - 1467456586676 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,392 - NewToursApplication -INFO - 1467456586677 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,392 - NewToursApplication -INFO - 1467456586720 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,392 - NewToursApplication -INFO - 1467456586723 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,393 - NewToursApplication -INFO - 1467456586723 - RESPONSE TypeElement
+
+2016-07-02 16:19:50,393 - NewToursApplication -INFO - 1467456586725 - COMMAND FindElement {
+   "using": "name",
+   "value": "password"
+}
+
+2016-07-02 16:19:50,394 - NewToursApplication -INFO - 1467456586725 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,394 - NewToursApplication -INFO - 1467456586726 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,395 - NewToursApplication -INFO - 1467456586739 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,395 - NewToursApplication -INFO - 1467456586740 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,395 - NewToursApplication -INFO - 1467456586740 - RESPONSE FindElement {
+   "ELEMENT": "0.9904662394568939-2"
+}
+
+2016-07-02 16:19:50,396 - NewToursApplication -INFO - 1467456586742 - COMMAND ClearElement {
+   "id": "0.9904662394568939-2"
+}
+
+2016-07-02 16:19:50,396 - NewToursApplication -INFO - 1467456586742 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,397 - NewToursApplication -INFO - 1467456586743 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,397 - NewToursApplication -INFO - 1467456586760 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,397 - NewToursApplication -INFO - 1467456586761 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,398 - NewToursApplication -INFO - 1467456586761 - RESPONSE ClearElement
+
+2016-07-02 16:19:50,398 - NewToursApplication -INFO - 1467456586764 - COMMAND FindElement {
+   "using": "name",
+   "value": "password"
+}
+
+2016-07-02 16:19:50,398 - NewToursApplication -INFO - 1467456586764 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,399 - NewToursApplication -INFO - 1467456586765 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,399 - NewToursApplication -INFO - 1467456586778 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,399 - NewToursApplication -INFO - 1467456586779 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,399 - NewToursApplication -INFO - 1467456586779 - RESPONSE FindElement {
+   "ELEMENT": "0.9904662394568939-2"
+}
+
+2016-07-02 16:19:50,400 - NewToursApplication -INFO - 1467456586782 - COMMAND TypeElement {
+   "id": "0.9904662394568939-2",
+   "value": [ "mercury" ]
+}
+
+2016-07-02 16:19:50,400 - NewToursApplication -INFO - 1467456586782 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,401 - NewToursApplication -INFO - 1467456586783 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,401 - NewToursApplication -INFO - 1467456586816 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,401 - NewToursApplication -INFO - 1467456586819 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,401 - NewToursApplication -INFO - 1467456586819 - RESPONSE TypeElement
+
+2016-07-02 16:19:50,402 - NewToursApplication -INFO - 1467456586821 - COMMAND FindElement {
+   "using": "name",
+   "value": "login"
+}
+
+2016-07-02 16:19:50,402 - NewToursApplication -INFO - 1467456586821 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,402 - NewToursApplication -INFO - 1467456586822 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,403 - NewToursApplication -INFO - 1467456586834 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,403 - NewToursApplication -INFO - 1467456586835 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,403 - NewToursApplication -INFO - 1467456586835 - RESPONSE FindElement {
+   "ELEMENT": "0.9904662394568939-3"
+}
+
+2016-07-02 16:19:50,404 - NewToursApplication -INFO - 1467456586838 - COMMAND ClickElement {
+   "id": "0.9904662394568939-3"
+}
+
+2016-07-02 16:19:50,404 - NewToursApplication -INFO - 1467456586838 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,404 - NewToursApplication -INFO - 1467456586838 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,405 - NewToursApplication -INFO - 1467456586869 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,405 - NewToursApplication -INFO - 1467456588688 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,405 - NewToursApplication -INFO - 1467456588688 - RESPONSE ClickElement
+
+2016-07-02 16:19:50,406 - NewToursApplication -INFO - 1467456588697 - COMMAND SetTimeout {
+   "ms": 3000,
+   "type": "page load"
+}
+
+2016-07-02 16:19:50,406 - NewToursApplication -INFO - 1467456588697 - RESPONSE SetTimeout
+
+2016-07-02 16:19:50,406 - NewToursApplication -INFO - 1467456588705 - COMMAND FindElement {
+   "using": "link text",
+   "value": "SIGN-OFF"
+}
+
+2016-07-02 16:19:50,407 - NewToursApplication -INFO - 1467456588705 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,407 - NewToursApplication -INFO - 1467456588707 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,407 - NewToursApplication -INFO - 1467456588772 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,408 - NewToursApplication -INFO - 1467456588774 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,408 - NewToursApplication -INFO - 1467456588774 - RESPONSE FindElement {
+   "ELEMENT": "0.15843591229727627-1"
+}
+
+2016-07-02 16:19:50,408 - NewToursApplication -INFO - 1467456588778 - COMMAND ClickElement {
+   "id": "0.15843591229727627-1"
+}
+
+2016-07-02 16:19:50,409 - NewToursApplication -INFO - 1467456588778 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,410 - NewToursApplication -INFO - 1467456588779 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,410 - NewToursApplication -INFO - 1467456588845 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,411 - NewToursApplication -INFO - 1467456590040 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,412 - NewToursApplication -INFO - 1467456590040 - RESPONSE ClickElement
+
+2016-07-02 16:19:50,412 - NewToursApplication -INFO - 1467456590050 - COMMAND Screenshot {
+
+}
+
+2016-07-02 16:19:50,412 - NewToursApplication -INFO - 1467456590050 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,413 - NewToursApplication -INFO - 1467456590052 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,413 - NewToursApplication -INFO - 1467456590273 - Waiting for pending navigations...
+
+2016-07-02 16:19:50,413 - NewToursApplication -INFO - 1467456590273 - Done waiting for pending navigations
+
+2016-07-02 16:19:50,414 - NewToursApplication -INFO - 1467456590273 - RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKbCAIAAACRikahAAAgAElEQVR4nOy9e5xVZ33v/1lr7b0ZJgkMYUQgCUxuhNyH/R2sNZwIbY2nWoX09zq1iacKJTxz/HkD/dme/l59HcD+elGriU0v7idG0LZJa08bUHuqiecElWht5rsZkoCE3AYSyQ3MQJIhzN57rd8fz..."
+
+2016-07-02 16:19:50,414 - NewToursApplication -INFO - 1467456590340 - COMMAND GetLog {
+   "type": "driver"
+}
+

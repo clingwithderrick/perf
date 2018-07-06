@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample Test Suite]">
+  <parameter name="browsers" value="Chrome"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="Sample Test(failed)">
+    <classes>
+      <class name="com.perficient.test.GoogleSearch">
+        <methods>
+          <include name="searchGoogle"/>
+          <include name="flush"/>
+          <include name="tearDown"/>
+          <include name="suiteSetup"/>
+          <include name="InitializeTestIteration"/>
+        </methods>
+      </class> <!-- com.perficient.test.GoogleSearch -->
+    </classes>
+  </test> <!-- Sample Test(failed) -->
+</suite> <!-- Failed suite [Sample Test Suite] -->

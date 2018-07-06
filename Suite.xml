@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite">
+	<listeners>
+	      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+	      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+	</listeners>
+	<parameter name="browsers" value="Chrome"/>
+	   
+	<!-- The whole test package can be specified or individual classes containing the test methods can be specified.  -->   
+	<test name="Sample Test">
+   		<!-- <packages><package name="com.perficient.test"></package></packages>  -->
+   		<classes>
+   			<!-- <class name="com.perficient.test.GoogleSearch"></class> -->
+   			<class name="com.perficient.test.BingSearch"></class>
+   		</classes>
+  	</test>
+  	  		
+</suite> 

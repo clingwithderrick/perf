@@ -1,0 +1,32 @@
+{
+    "searchGoogle": {
+		"Iteration1" : {
+	    	"TC_Description": "Sample test to search in google",
+	        "URL": "https://www.google.com",
+	        "SearchString": "how to open pdf file"
+	    },
+		"Iteration2" : {
+	    	"TC_Description": "Sample test to search in google",
+	        "URL": "https://www.google.com",
+	        "SearchString": "how to open gimp file"
+	    },
+		"Iteration3" : {
+	    	"TC_Description": "Sample test to search in google",
+	        "URL": "https://www.google.com",
+	        "SearchString": "how to opens file"
+	    }
+    },
+    
+    "searchBing": {
+	    "Iteration1" : {
+	    	"TC_Description": "Sample test to search in bing",
+	        "URL": "https://www.bing.com",
+	        "SearchString": "how to open pdf file"
+	    },
+		"Iteration2" : {
+	    	"TC_Description": "Sample test to search in bing",
+	        "URL": "https://www.bing.com",
+	        "SearchString": "how to open gimp file"
+	    }
+    }
+ }

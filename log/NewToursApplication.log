@@ -1,0 +1,446 @@
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Ignoring unrecognized log type: client
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Ignoring unrecognized log type: profiler
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Ignoring unrecognized log type: server
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Can not set to US keyboard layout - Some keycodes may beinterpreted incorrectly
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-extension="C:\Users\SRINIV~1.RAM\AppData\Local\Temp\scoped_dir9404_471\internal" --log-level=0 --metrics-recording-only --no-first-run --no-sandbox --password-store=basic --remote-debugging-port=12679 --safebrowsing-disable-auto-update --safebrowsing-disable-download-protection --test-type --use-mock-keychain --user-data-dir="C:\Users\SRINIV~1.RAM\AppData\Local\Temp\scoped_dir9404_31452" data:,
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.21.371459 (36d3d07f660ff2bc1bf28a75d1cdabed0983e7c4)",
+      "userDataDir": "C:\\Users\\SRINIV~1.RAM\\AppData\\Local\\Temp\\scoped_dir9404_31452"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "51.0.2704.103",
+   "webStorageEnabled": true
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND MaximizeWindow {
+   "windowHandle": "current"
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE MaximizeWindow
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND SetTimeout {
+   "ms": 10000,
+   "type": "implicit"
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE SetTimeout
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND Navigate {
+   "url": "http://newtours.demoaut.com"
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE Navigate
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND FindElement {
+   "using": "name",
+   "value": "userName"
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE FindElement {
+   "ELEMENT": "0.19316941590020043-1"
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND ClearElement {
+   "id": "0.19316941590020043-1"
+}
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:16 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE ClearElement
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND FindElement {
+   "using": "name",
+   "value": "userName"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE FindElement {
+   "ELEMENT": "0.19316941590020043-1"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND TypeElement {
+   "id": "0.19316941590020043-1",
+   "value": [ "mercury" ]
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE TypeElement
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND FindElement {
+   "using": "name",
+   "value": "password"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE FindElement {
+   "ELEMENT": "0.19316941590020043-2"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND ClearElement {
+   "id": "0.19316941590020043-2"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE ClearElement
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND FindElement {
+   "using": "name",
+   "value": "password"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE FindElement {
+   "ELEMENT": "0.19316941590020043-2"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND TypeElement {
+   "id": "0.19316941590020043-2",
+   "value": [ "mercury" ]
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE TypeElement
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND FindElement {
+   "using": "name",
+   "value": "login"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE FindElement {
+   "ELEMENT": "0.19316941590020043-3"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND ClickElement {
+   "id": "0.19316941590020043-3"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE ClickElement
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND SetTimeout {
+   "ms": 3000,
+   "type": "page load"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE SetTimeout
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND FindElement {
+   "using": "link text",
+   "value": "SIGN-OFF"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE FindElement {
+   "ELEMENT": "0.9723512707614927-1"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND ClickElement {
+   "id": "0.9723512707614927-1"
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE ClickElement
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND Screenshot {
+
+}
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Waiting for pending navigations...
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: Done waiting for pending navigations
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAABVYAAAKbCAIAAACRikahAAAgAElEQVR4nOy9e5xVZ33v/1lr7b0ZJgkMYUQgCUxuhNyH/R2sNZwIbY2nWoX09zq1iacKJTxz/HkD/dme/l59HcD+elGriU0v7idG0LZJa08bUHuqiecElWht5rsZkoCE3AYSyQ3MQJIhzN57rd8fz..."
+
+Jul 02, 2016 4:57:17 PM com.perficient.core.TestDriver tearDown
+INFO: COMMAND GetLog {
+   "type": "driver"
+}
+

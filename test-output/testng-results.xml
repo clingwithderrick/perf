@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample Test Suite" duration-ms="18853" started-at="2018-06-05T06:51:46Z" finished-at="2018-06-05T06:52:05Z">
+    <groups>
+    </groups>
+    <test name="Sample Test" duration-ms="18853" started-at="2018-06-05T06:51:46Z" finished-at="2018-06-05T06:52:05Z">
+      <class name="com.perficient.test.BingSearch">
+        <test-method status="PASS" signature="suiteSetup()[pri:0, instance:com.perficient.test.BingSearch@27efef64]" name="suiteSetup" is-config="true" duration-ms="387" started-at="2018-06-05T12:21:45Z" finished-at="2018-06-05T12:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="InitializeTestIteration(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.perficient.test.BingSearch@27efef64]" name="InitializeTestIteration" is-config="true" duration-ms="4304" started-at="2018-06-05T12:21:46Z" finished-at="2018-06-05T12:21:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.perficient.test.BingSearch.searchBing() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1698ee84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeTestIteration -->
+        <test-method status="PASS" signature="searchBing()[pri:0, instance:com.perficient.test.BingSearch@27efef64]" name="searchBing" duration-ms="4470" started-at="2018-06-05T12:21:50Z" data-provider="data-provider" finished-at="2018-06-05T12:21:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.perficient.test.BingSearch@27efef64]" name="tearDown" is-config="true" duration-ms="1007" started-at="2018-06-05T12:21:55Z" finished-at="2018-06-05T12:21:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBing status=SUCCESS method=BingSearch.searchBing()[pri:0, instance:com.perficient.test.BingSearch@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="InitializeTestIteration(java.lang.reflect.Method, org.testng.ITestContext)[pri:0, instance:com.perficient.test.BingSearch@27efef64]" name="InitializeTestIteration" is-config="true" duration-ms="3415" started-at="2018-06-05T12:21:56Z" finished-at="2018-06-05T12:21:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.perficient.test.BingSearch.searchBing() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1698ee84]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeTestIteration -->
+        <test-method status="PASS" signature="searchBing()[pri:0, instance:com.perficient.test.BingSearch@27efef64]" name="searchBing" duration-ms="4098" started-at="2018-06-05T12:21:59Z" data-provider="data-provider" finished-at="2018-06-05T12:22:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBing -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.perficient.test.BingSearch@27efef64]" name="tearDown" is-config="true" duration-ms="1535" started-at="2018-06-05T12:22:03Z" finished-at="2018-06-05T12:22:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchBing status=SUCCESS method=BingSearch.searchBing()[pri:0, instance:com.perficient.test.BingSearch@27efef64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.perficient.test.BingSearch@27efef64]" name="flush" is-config="true" duration-ms="647" started-at="2018-06-05T12:22:05Z" finished-at="2018-06-05T12:22:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- com.perficient.test.BingSearch -->
+    </test> <!-- Sample Test -->
+  </suite> <!-- Sample Test Suite -->
+</testng-results>

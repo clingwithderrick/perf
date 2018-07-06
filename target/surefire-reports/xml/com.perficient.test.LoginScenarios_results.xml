@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="NewTours App"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="42.127">
+  <properties />
+  
+  
+            <testcase name="LoginLogout" time="7.458" classname="com.perficient.test.LoginScenarios" />
+                <testcase name="LoginHotelLogout" time="8.745" classname="com.perficient.test.LoginScenarios" />
+                <testcase name="LoginLogout" time="17.126" classname="com.perficient.test.LoginScenarios" />
+                <testcase name="LoginHotelLogout" time="8.798" classname="com.perficient.test.LoginScenarios" />
+      
+</testsuite>

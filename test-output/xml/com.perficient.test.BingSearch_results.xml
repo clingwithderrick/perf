@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sample Test"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="8.568">
+  <properties />
+  
+  
+            <testcase name="searchBing" time="4.470" classname="com.perficient.test.BingSearch" />
+                <testcase name="searchBing" time="4.098" classname="com.perficient.test.BingSearch" />
+      
+</testsuite>

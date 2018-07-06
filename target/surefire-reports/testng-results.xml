@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite 1" duration-ms="66218" started-at="2017-01-30T13:54:04Z" finished-at="2017-01-30T13:55:10Z">
+    <groups>
+    </groups>
+    <test name="NewTours App" duration-ms="66218" started-at="2017-01-30T13:54:04Z" finished-at="2017-01-30T13:55:10Z">
+      <class name="com.perficient.test.LoginScenarios">
+        <test-method status="PASS" signature="suiteSetup()[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="suiteSetup" is-config="true" duration-ms="280" started-at="2017-01-30T19:24:03Z" finished-at="2017-01-30T19:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetup -->
+        <test-method status="PASS" signature="InitializeTestIteration(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="InitializeTestIteration" is-config="true" duration-ms="4021" started-at="2017-01-30T19:24:04Z" finished-at="2017-01-30T19:24:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.perficient.test.LoginScenarios.LoginHotelLogout(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1f130eaf]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeTestIteration -->
+        <test-method status="PASS" signature="LoginHotelLogout(java.lang.String)[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="LoginHotelLogout" duration-ms="8798" started-at="2017-01-30T19:24:08Z" data-provider="data-provider" finished-at="2017-01-30T19:24:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHotelLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="tearDown" is-config="true" duration-ms="992" started-at="2017-01-30T19:24:16Z" finished-at="2017-01-30T19:24:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="InitializeTestIteration(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="InitializeTestIteration" is-config="true" duration-ms="6594" started-at="2017-01-30T19:24:17Z" finished-at="2017-01-30T19:24:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.perficient.test.LoginScenarios.LoginHotelLogout(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@7e0aadd0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeTestIteration -->
+        <test-method status="PASS" signature="LoginHotelLogout(java.lang.String)[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="LoginHotelLogout" duration-ms="8745" started-at="2017-01-30T19:24:24Z" data-provider="data-provider" finished-at="2017-01-30T19:24:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginHotelLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="tearDown" is-config="true" duration-ms="474" started-at="2017-01-30T19:24:33Z" finished-at="2017-01-30T19:24:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="InitializeTestIteration(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="InitializeTestIteration" is-config="true" duration-ms="3536" started-at="2017-01-30T19:24:33Z" finished-at="2017-01-30T19:24:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.perficient.test.LoginScenarios.LoginLogout(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@21362712]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeTestIteration -->
+        <test-method status="PASS" signature="LoginLogout(java.lang.String)[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="LoginLogout" duration-ms="7458" started-at="2017-01-30T19:24:37Z" data-provider="data-provider" finished-at="2017-01-30T19:24:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="tearDown" is-config="true" duration-ms="805" started-at="2017-01-30T19:24:44Z" finished-at="2017-01-30T19:24:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="InitializeTestIteration(java.lang.reflect.Method, [Ljava.lang.Object;)[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="InitializeTestIteration" is-config="true" duration-ms="7239" started-at="2017-01-30T19:24:45Z" finished-at="2017-01-30T19:24:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.perficient.test.LoginScenarios.LoginLogout(java.lang.String) throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@27eb3298]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitializeTestIteration -->
+        <test-method status="PASS" signature="LoginLogout(java.lang.String)[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="LoginLogout" duration-ms="17126" started-at="2017-01-30T19:24:52Z" data-provider="data-provider" finished-at="2017-01-30T19:25:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginLogout -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="tearDown" is-config="true" duration-ms="422" started-at="2017-01-30T19:25:09Z" finished-at="2017-01-30T19:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="flush()[pri:0, instance:com.perficient.test.LoginScenarios@73846619]" name="flush" is-config="true" duration-ms="226" started-at="2017-01-30T19:25:10Z" finished-at="2017-01-30T19:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- com.perficient.test.LoginScenarios -->
+    </test> <!-- NewTours App -->
+  </suite> <!-- Test Suite 1 -->
+</testng-results>
